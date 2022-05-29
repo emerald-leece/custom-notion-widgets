@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Live Dash Greeting</title>
 
     <style>
 
@@ -59,7 +59,7 @@ h1 {
 
 .time {
     display: inline-block;
-    min-width: 30px;
+    //min-width: 30px;
 }
 
 .colon {
@@ -111,6 +111,7 @@ h1 {
 var today = new Date();
 document.getElementById('date').innerHTML = today.toUTCString();
 var noTime = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+        return noTime;
 }
 
 
