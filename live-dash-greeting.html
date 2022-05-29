@@ -108,10 +108,7 @@ h1 {
 
 <script>
     function date() {
-var today = new Date();
-document.getElementById('date').innerHTML = today.toUTCString();
-var noTime = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-        return noTime;
+today = new Date().toLocaleDateString();
 }
 
 
