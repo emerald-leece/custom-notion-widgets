@@ -108,7 +108,7 @@ h1 {
 
 <script>
     function date() {
-today = new Date().toLocaleDateString();
+today = new Date().toLocaleDateString('en-GB');
 }
 
 
@@ -121,7 +121,7 @@ hrs = today.getHours();
 if (hrs < 12)
         greet = 'Good Morning  ';
     else if (hrs >= 12 && hrs <= 17)
-        greet = 'Good Afternoon ';
+        greet = 'Good Afternoon Emerald ';
     else if (hrs >= 17 && hrs <= 24)
         greet = 'Good Evening  ';
 // console.log(today.toLocaleTimeString());
